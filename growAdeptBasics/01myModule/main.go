@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/common-nighthawk/go-figure"
+)
 
 // "github.com/common-nighthawk/go-figure"
 
@@ -8,8 +12,6 @@ func main() {
 	print("Hello World!\n")
 	fmt.Println("Hello Coders")
 
-	/*
-		myFigure := figure.NewFigure("Hello World", "", true)
-		myFigure.Print()
-	*/
+	myFigure := figure.NewFigure("Hello World", "", true)
+	myFigure.Print()
 }
